@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./External/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./External/Images/logo3.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form>
+                <div class="input-box">
+                    <input type="text" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+                    <label style="font-size: .9rem;">Username / Email address / Phone Number</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" required id="password">
+                    <label>Password</label>
+                    <i style="cursor: pointer;" class='bx bxs-hide icon' ></i>
+                </div>
+                <button class="btn" type="submit" id="signinBtn">Login</button>
+                <div class="logreg-link">
+                    <p>Don't have an account? <a href="./External/index1.html" class="register-link" id="signupBtn">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-text login">
+            <div>
+                <img src="./External/Images/logo.jpg"/>
+            </div>
+           
+            <h2>Welcome Back</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+    <script src="./External/script.js"></script>
+</body>
+</html>
